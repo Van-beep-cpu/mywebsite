@@ -1,0 +1,724 @@
+Du bist ein Senior UX Designer, Brand Designer, Conversion-Stratege, Copywriter und Full-Stack-Webentwickler.
+
+Entwickle eine vollständige, produktionsreife Website für meine AI-First-Dienstleistungsmarke.
+
+Wichtig: Erstelle nicht nur ein Konzept und keine bloße Erklärung. Baue die Website vollständig auf, erstelle alle benötigten Dateien, Komponenten, Inhalte und Styles und stelle sicher, dass das Projekt direkt gestartet werden kann.
+
+## 1. Unternehmensidee
+
+Ich unterstütze kleine und mittelständische Unternehmen, Selbstständige, Dienstleister, Creator und Agenturen dabei, moderne Technologien sinnvoll einzusetzen.
+
+Meine Leistungen verbinden:
+
+* moderne Webseiten
+* KI-Beratung
+* Prozessautomatisierung
+* individuelle AI-Workflows
+* AI Business Consulting
+* Content-Systeme
+
+Ich verkaufe keine Technik um der Technik willen.
+
+Ich entwickle digitale Systeme, die:
+
+* Zeit sparen
+* Prozesse vereinfachen
+* Vertrauen schaffen
+* Komplexität reduzieren
+* professionelles Wachstum ermöglichen
+* Unternehmen langfristig zukunftsfähiger machen
+
+Die Kernbotschaft der Marke lautet:
+
+„Technologie soll Menschen unterstützen, nicht ersetzen.“
+
+Die Marke steht für:
+
+* Klarheit
+* Systeme
+* moderne Unternehmensentwicklung
+* künstliche Intelligenz
+* Automatisierung
+* Kreativität
+* Ehrlichkeit
+* Qualität
+* langfristiges Denken
+* Build in Public
+
+Die Marke soll nicht wie eine klassische Agentur wirken.
+
+Sie soll sich wie eine moderne, persönliche und vertrauenswürdige AI-First Company anfühlen.
+
+## 2. Zielgruppe
+
+Die Website richtet sich primär an:
+
+* kleine und mittelständische Unternehmen
+* lokale Dienstleister
+* Handwerksbetriebe
+* Praxen
+* Coaches
+* Berater
+* Freelancer
+* Agenturen
+* Creator
+* Gründer
+
+Die Besucher haben häufig folgende Probleme:
+
+* veraltete oder unprofessionelle Website
+* zu wenig qualifizierte Anfragen
+* manuelle und zeitaufwendige Prozesse
+* unübersichtliche Abläufe
+* Unsicherheit beim Thema KI
+* zu viele Tools ohne klare Struktur
+* fehlende Automatisierung
+* fehlende digitale Strategie
+
+Sie möchten:
+
+* professioneller auftreten
+* Vertrauen bei Kunden schaffen
+* mehr Zeit gewinnen
+* Prozesse automatisieren
+* moderne Technologien verstehen
+* bessere Entscheidungen treffen
+* langfristig wachsen
+
+Sprich nicht nur über Features.
+
+Kommuniziere immer das Ergebnis:
+
+* Eine Website bedeutet mehr Vertrauen.
+* Automatisierung bedeutet mehr Zeit.
+* KI-Beratung bedeutet mehr Klarheit.
+* Systeme bedeuten weniger Chaos.
+* Eine Strategie bedeutet mehr Sicherheit.
+
+## 3. Positionierung
+
+Positioniere mich nicht als allwissenden KI-Guru.
+
+Positioniere mich als:
+
+* Builder
+* strategischen Partner
+* kreativen Problemlöser
+* verständlichen Technologieexperten
+* langfristigen Begleiter
+
+Die Kommunikation soll vermitteln:
+
+„Ich zeige nicht nur, was mit Technologie möglich ist. Ich entwickle die passende Lösung gemeinsam mit dem Kunden.“
+
+Vermeide:
+
+* übertriebene Erfolgsversprechen
+* Angstmarketing
+* künstliche Verknappung
+* KI-Hype
+* typische Agenturfloskeln
+* Buzzwords ohne Erklärung
+* aggressive Verkaufssprache
+* erfundene Kundenlogos oder Bewertungen
+* Fake-Statistiken
+
+## 4. Website-Ziel
+
+Das primäre Ziel der Website ist die Generierung qualifizierter Erstgespräche.
+
+Primärer CTA:
+
+„Kostenloses Erstgespräch“
+
+Alternativer CTA:
+
+„Projekt besprechen“
+
+Sekundärer CTA:
+
+„Leistungen entdecken“
+
+Die Besucher sollen innerhalb weniger Sekunden verstehen:
+
+1. Was ich anbiete.
+2. Für wen das Angebot gedacht ist.
+3. Welches Ergebnis sie erhalten.
+4. Warum sie mir vertrauen können.
+5. Was der nächste Schritt ist.
+
+## 5. Informationsarchitektur
+
+Erstelle folgende Seiten:
+
+### Startseite
+
+Die Startseite soll enthalten:
+
+1. Navigation
+2. Hero-Bereich
+3. Vertrauens- oder Positionierungsleiste
+4. Problemsektion
+5. Leistungsübersicht
+6. Nutzen- und Ergebnisbereich
+7. Arbeitsprozess
+8. Warum ich anders arbeite
+9. ausgewählte Projekte oder Case-Study-Platzhalter
+10. Build-in-Public- oder persönliche Sektion
+11. FAQ
+12. abschließender CTA
+13. Footer
+
+### Leistungen
+
+Erstelle eine übersichtliche Leistungsseite mit folgenden Angeboten:
+
+#### Moderne Webseiten
+
+Nutzen:
+
+* professioneller Auftritt
+* mehr Vertrauen
+* klare Benutzerführung
+* bessere Conversion
+* schnelle Ladezeiten
+* responsive Darstellung
+* solide SEO-Grundlage
+
+Leistungsumfang:
+
+* Strategie
+* Konzeption
+* UX
+* Design
+* Entwicklung
+* responsive Optimierung
+* Performance-Optimierung
+* Kontaktformulare
+* SEO-Grundlagen
+
+#### KI-Beratung
+
+Nutzen:
+
+* sinnvolle KI-Einsatzbereiche erkennen
+* Tool-Chaos reduzieren
+* klare Prioritäten entwickeln
+* konkrete Roadmap erhalten
+
+#### Prozessautomatisierung
+
+Mögliche Anwendungsfälle:
+
+* Kontaktanfragen
+* CRM-Prozesse
+* Angebote
+* E-Mails
+* Terminbuchungen
+* Dokumentenerstellung
+* Lead Management
+
+#### Individuelle AI-Workflows
+
+Mögliche Lösungen:
+
+* Dokumentenanalyse
+* Wissensdatenbanken
+* interne Assistenten
+* GPT-Systeme
+* AI-Agenten
+* automatische Zusammenfassungen
+
+#### AI Business Consulting
+
+Leistungen:
+
+* Prozessanalyse
+* KI-Roadmap
+* Toolauswahl
+* Strategie
+* Schulungen
+* Implementierung
+
+#### Content-Systeme
+
+Mögliche Lösungen:
+
+* Content Workflows
+* Redaktionssysteme
+* Ideenmanagement
+* KI-gestützte Content-Erstellung
+* Mehrfachverwertung bestehender Inhalte
+
+### Über mich
+
+Die Seite soll persönlich, glaubwürdig und professionell wirken.
+
+Vermittle:
+
+* Ich baue öffentlich eine moderne AI-First Company auf.
+* Ich dokumentiere nicht nur Erfolge, sondern auch Entscheidungen, Experimente, Fehler und Learnings.
+* Ich bin Unternehmer, Builder, Creator und kreativer Problemlöser.
+* Technologie, Kreativität und persönliche Entwicklung gehören für mich zusammen.
+* Ich möchte nicht perfekt wirken, sondern ehrlich und nachvollziehbar arbeiten.
+
+Erstelle Raum für ein echtes Portraitfoto. Verwende kein künstliches Stockfoto einer angeblichen Gründerperson.
+
+### Projekte
+
+Erstelle eine Case-Study-Struktur mit folgenden Feldern:
+
+* Ausgangssituation
+* Herausforderung
+* Ziel
+* Strategie
+* Lösung
+* Umsetzung
+* Ergebnis
+* verwendete Technologien
+* Kundenstimme
+
+Zeige zunächst hochwertige Platzhalter mit einem klaren Hinweis, dass echte Projekte später ergänzt werden.
+
+Erfinde keine Resultate.
+
+### Kontakt
+
+Erstelle eine klare Kontaktseite mit:
+
+* kurzer Einladung
+* Erwartungsmanagement
+* Projektformular
+* Kontaktmöglichkeiten
+* nächsten Schritten
+* Datenschutz-Hinweis
+
+Formularfelder:
+
+* Name
+* Unternehmen
+* E-Mail
+* Website, optional
+* gewünschte Leistung
+* größte aktuelle Herausforderung
+* gewünschtes Ergebnis
+* geplanter Zeitrahmen
+* ungefähres Budget
+* Nachricht
+* Datenschutz-Checkbox
+
+## 6. Hero-Bereich
+
+Entwickle einen sehr starken Hero-Bereich.
+
+Nutze als inhaltliche Richtung:
+
+Eyebrow:
+
+„Webseiten, KI und Automatisierung für moderne Unternehmen“
+
+Headline:
+
+„Weniger manuelle Arbeit. Mehr Klarheit. Bessere Systeme.“
+
+Subheadline:
+
+„Ich entwickle moderne Webseiten, KI-Workflows und Automatisierungen, die Unternehmen professioneller, effizienter und zukunftsfähiger machen.“
+
+Primärer CTA:
+
+„Kostenloses Erstgespräch“
+
+Sekundärer CTA:
+
+„Leistungen entdecken“
+
+Ergänze eine ruhige Vertrauenszeile:
+
+„Verständlich erklärt. Individuell entwickelt. Langfristig gedacht.“
+
+Optimiere diese Texte, falls du eine klarere und überzeugendere Formulierung findest. Vermeide jedoch Übertreibungen.
+
+## 7. Arbeitsprozess
+
+Visualisiere folgenden Prozess:
+
+1. Verstehen
+   Wir analysieren die Ausgangssituation, Ziele und bestehenden Prozesse.
+
+2. Strukturieren
+   Wir definieren Prioritäten und entwickeln eine klare Strategie.
+
+3. Entwickeln
+   Wir gestalten und bauen die passende digitale Lösung.
+
+4. Implementieren
+   Die Lösung wird sauber in den Arbeitsalltag integriert.
+
+5. Dokumentieren
+   Alle wichtigen Abläufe werden nachvollziehbar dokumentiert.
+
+6. Optimieren
+   Wir analysieren die Nutzung und verbessern das System kontinuierlich.
+
+Der Prozess soll Sicherheit vermitteln und technische Unsicherheit reduzieren.
+
+## 8. Brand Voice
+
+Schreibe alle Inhalte auf Deutsch.
+
+Die Sprache ist:
+
+* ruhig
+* klar
+* modern
+* intelligent
+* nahbar
+* ehrlich
+* professionell
+* reflektiert
+* verständlich
+
+Schreibe kurze Absätze.
+
+Nutze konkrete Aussagen.
+
+Erkläre komplexe Themen einfach.
+
+Sprich auf Augenhöhe.
+
+Der Stil soll wirken wie ein intelligenter Freund, der moderne Technologien versteht und komplizierte Dinge verständlich erklären kann.
+
+Vermeide Begriffe wie:
+
+* revolutionär
+* ultimativ
+* garantiert
+* Geheimtrick
+* über Nacht
+* schnell reich
+* bahnbrechend
+* Gamechanger
+* KI-Revolution
+
+Verwende bevorzugt Begriffe wie:
+
+* Klarheit
+* Systeme
+* Prozesse
+* Zukunft
+* Umsetzung
+* Entwicklung
+* langfristig
+* nachhaltig
+* Mehrwert
+* Freiheit
+* Fortschritt
+
+## 9. Designrichtung
+
+Das Design soll:
+
+* minimalistisch
+* hochwertig
+* ruhig
+* modern
+* technisch
+* menschlich
+* klar
+* zeitlos
+* vertrauenswürdig
+
+wirken.
+
+Keine typische futuristische KI-Website.
+
+Vermeide:
+
+* Roboterbilder
+* leuchtende Gehirne
+* übertriebene Neonfarben
+* Cyberpunk-Stil
+* unruhige Partikelanimationen
+* zufällige 3D-Elemente
+* riesige Farbverläufe ohne Funktion
+* Glasmorphismus auf jeder Karte
+* überladene Bento-Grids
+* austauschbare Stockfotos
+* permanente Animationen
+
+Nutze stattdessen:
+
+* großzügigen Weißraum
+* starke Typografie
+* klare visuelle Hierarchie
+* dezente Linien und Raster
+* hochwertige Karten
+* leichte Tiefenwirkung
+* subtile technische Details
+* echte Bilder
+* klare Icons
+* ruhige Microinteractions
+
+## 10. Farbwelt
+
+Entwickle eine hochwertige Farbpalette.
+
+Grundlage:
+
+* warmer, fast weißer Hintergrund
+* sehr dunkles Anthrazit für Text
+* dezente neutrale Grautöne
+* eine klare Akzentfarbe, beispielsweise tiefes Blau, Indigo oder gedämpftes Türkis
+
+Die Akzentfarbe soll gezielt für:
+
+* CTAs
+* Links
+* aktive Zustände
+* wichtige Hervorhebungen
+
+verwendet werden.
+
+Achte auf ausreichende Farbkontraste gemäß WCAG.
+
+Verwende Farben nicht rein dekorativ.
+
+## 11. Typografie
+
+Nutze eine moderne, hochwertige und sehr gut lesbare Sans-Serif-Schrift.
+
+Mögliche Stilrichtung:
+
+* Inter
+* Geist
+* Manrope
+* Plus Jakarta Sans
+
+Nutze eine klar definierte typografische Skala.
+
+Die Headlines dürfen charakterstark sein, aber nicht laut oder verspielt.
+
+Fließtext soll großzügige Zeilenhöhe und angenehme Zeilenlänge besitzen.
+
+## 12. Bildsprache
+
+Plane Bildbereiche für:
+
+* authentisches Gründerportrait
+* Arbeitsplatz oder Studio
+* echte Einblicke in Prozesse
+* Screenshots von Systemen
+* Projektansichten
+* Build-in-Public-Inhalte
+* Whiteboards oder Konzeptarbeit
+
+Nutze bis zur Einbindung echter Bilder hochwertige neutrale Platzhalter.
+
+Kennzeichne im Code eindeutig, wo echte Bilder ersetzt werden sollten.
+
+## 13. UX- und Conversion-Anforderungen
+
+Arbeite mobile first.
+
+Die Website muss auf Smartphones besonders klar und hochwertig funktionieren.
+
+Beachte:
+
+* eindeutige Navigation
+* kurze Entscheidungswege
+* sichtbare CTAs
+* ausreichend große Touch-Flächen
+* verständliche Formulare
+* klare Fehlermeldungen
+* logische Seitenstruktur
+* keine unnötigen Pop-ups
+* kein störendes Autoplay
+* keine manipulativen Dark Patterns
+
+Platziere CTAs sinnvoll:
+
+* im Hero
+* nach der Leistungsübersicht
+* nach dem Prozess
+* vor dem Footer
+* auf jeder Leistungsdetailseite
+
+Nutze Social Proof nur als strukturelle Vorbereitung.
+
+Erfinde keine Bewertungen, Zahlen, Kundenlogos oder Case Studies.
+
+Erstelle Komponenten, in die später echte Nachweise eingetragen werden können.
+
+## 14. Technische Umsetzung
+
+Verwende:
+
+* Next.js mit App Router
+* TypeScript
+* Tailwind CSS
+* wiederverwendbare React-Komponenten
+* Lucide Icons
+* eine saubere Komponenten- und Ordnerstruktur
+
+Nutze nur zusätzliche Bibliotheken, wenn sie einen klaren Mehrwert bieten.
+
+Animationen können mit CSS oder Framer Motion umgesetzt werden, müssen aber:
+
+* dezent sein
+* die Orientierung unterstützen
+* prefers-reduced-motion respektieren
+* die Performance nicht beeinträchtigen
+
+Technische Anforderungen:
+
+* semantisches HTML
+* barrierearme Umsetzung
+* Tastaturnavigation
+* sichtbare Fokuszustände
+* sinnvolle ARIA-Attribute
+* optimierte Bilder
+* Lazy Loading
+* gute Core Web Vitals
+* responsive Design
+* saubere Meta-Daten
+* Open-Graph-Daten
+* Sitemap
+* robots.txt
+* strukturierte Daten für ProfessionalService
+* individuelle Seitentitel und Meta Descriptions
+* funktionierende 404-Seite
+* Impressum-Platzhalter
+* Datenschutz-Platzhalter
+
+Verwende keine Lorem-Ipsum-Texte.
+
+## 15. Komponenten
+
+Erstelle mindestens folgende wiederverwendbare Komponenten:
+
+* Header
+* Mobile Navigation
+* Hero
+* Section Header
+* Service Card
+* Benefit Card
+* Process Steps
+* Project Card
+* Case Study Layout
+* Testimonial Placeholder
+* FAQ Accordion
+* CTA Section
+* Contact Form
+* Footer
+* Cookie-Hinweis-Platzhalter
+* Button-System
+* Container
+* Badge
+* Icon Wrapper
+
+## 16. Kontaktformular
+
+Erstelle ein vollständig validiertes Formular.
+
+Nutze:
+
+* verständliche Fehlermeldungen
+* Ladezustand
+* Erfolgszustand
+* Fehlerzustand
+* Spam-Schutz-Vorbereitung
+* Honeypot-Feld
+* serverseitige Validierung
+
+Falls keine externe E-Mail-Infrastruktur eingerichtet ist, erstelle eine saubere API-Route und dokumentiere in der README, wie Resend oder ein vergleichbarer E-Mail-Dienst angeschlossen werden kann.
+
+## 17. SEO-Inhalte
+
+Erstelle sinnvolle Meta Titles und Meta Descriptions für alle Seiten.
+
+Wichtige Themenfelder:
+
+* moderne Webseiten für Unternehmen
+* Webdesign für Selbstständige
+* KI-Beratung für Unternehmen
+* Prozessautomatisierung
+* AI Workflows
+* KI-Strategie
+* digitale Systeme für Unternehmen
+
+Verwende Keywords natürlich.
+
+Keine Keyword-Wiederholungen und keine Texte für Suchmaschinen statt für Menschen.
+
+## 18. README und Anpassbarkeit
+
+Erstelle eine ausführliche README mit:
+
+* Installation
+* Start des Projekts
+* Build
+* Deployment
+* Projektstruktur
+* Austausch von Farben
+* Austausch von Schriften
+* Austausch von Texten
+* Einbindung echter Bilder
+* Einrichtung des Kontaktformulars
+* Anpassung von SEO-Daten
+* Hinzufügen neuer Projekte
+* Einbindung eines Analytics-Tools
+* Datenschutz-Hinweisen
+
+Lege zentrale Markeninhalte möglichst in einer gut editierbaren Konfigurationsdatei oder klar strukturierten Datenobjekten ab.
+
+Folgende Angaben sollen einfach austauschbar sein:
+
+* Markenname
+* Name des Gründers
+* E-Mail-Adresse
+* Telefonnummer
+* Standort
+* Social-Media-Links
+* Calendly-Link
+* Leistungen
+* FAQs
+* Projekte
+* Navigation
+* rechtliche Links
+
+## 19. Qualitätsprüfung
+
+Prüfe vor Abschluss:
+
+* Funktionieren alle Links?
+* Ist die Navigation auf Mobilgeräten nutzbar?
+* Sind CTAs eindeutig?
+* Ist jede Seite vollständig?
+* Gibt es keine horizontalen Scrollprobleme?
+* Sind Formulare zugänglich?
+* Sind alle Texte auf Deutsch?
+* Gibt es keine erfundenen Behauptungen?
+* Ist das Design konsistent?
+* Ist die Website schnell?
+* Ist der Code sauber strukturiert?
+* Funktioniert das Projekt ohne Fehler?
+* Sind leere Zustände sinnvoll gestaltet?
+* Ist die nächste Handlung auf jeder Seite eindeutig?
+
+## 20. Vorgehensweise
+
+Arbeite in dieser Reihenfolge:
+
+1. Definiere Sitemap und Informationsarchitektur.
+2. Lege Designsystem, Farben, Typografie und Abstände fest.
+3. Entwickle die wiederverwendbaren Komponenten.
+4. Erstelle die Startseite.
+5. Erstelle die Unterseiten.
+6. Implementiere das Kontaktformular.
+7. Ergänze SEO und strukturierte Daten.
+8. Optimiere Responsive Design und Accessibility.
+9. Führe eine finale Qualitätskontrolle durch.
+10. Gib eine kurze Zusammenfassung der erstellten Struktur und der wichtigsten Anpassungsmöglichkeiten aus.
+
+Beginne jetzt mit der vollständigen Umsetzung.

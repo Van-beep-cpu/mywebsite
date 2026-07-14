@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/</loc></url>
+  <url><loc>https://example.com/leistungen</loc></url>
+  <url><loc>https://example.com/ueber-mich</loc></url>
+  <url><loc>https://example.com/projekte</loc></url>
+  <url><loc>https://example.com/kontakt</loc></url>
+  <url><loc>https://example.com/leistungen/moderne-webseiten</loc></url>
+  <url><loc>https://example.com/leistungen/ki-beratung</loc></url>
+  <url><loc>https://example.com/leistungen/prozessautomatisierung</loc></url>
+  <url><loc>https://example.com/leistungen/ai-workflows</loc></url>
+  <url><loc>https://example.com/leistungen/ai-business-consulting</loc></url>
+  <url><loc>https://example.com/leistungen/content-systeme</loc></url>
+</urlset>

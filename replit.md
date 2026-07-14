@@ -1,6 +1,6 @@
-# [Project name]
+# AI-First Company Website
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+Mehrseitige, deutschsprachige Marketing-Website für eine Ein-Personen AI-First-Dienstleistungsmarke (moderne Webseiten, KI-Beratung, Automatisierung) mit Kontaktformular-Backend.
 
 ## Run & Operate
 

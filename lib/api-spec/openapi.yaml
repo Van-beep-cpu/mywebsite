@@ -10,6 +10,8 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: contact
+    description: Contact form operations
 paths:
   /healthz:
     get:
@@ -24,6 +26,31 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /contact:
+    post:
+      operationId: submitContactRequest
+      tags: [contact]
+      summary: Submit a project inquiry from the contact form
+      description: Validates and stores a contact/project inquiry submission
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ContactRequestInput"
+      responses:
+        "201":
+          description: Submission accepted
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ContactRequest"
+        "400":
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ContactError"
 components:
   schemas:
     HealthStatus:
@@ -33,4 +60,97 @@ components:
           type: string
       required:
         - status
+    ContactError:
+      type: object
+      properties:
+        error:
+          type: string
+      required:
+        - error
+    ContactRequestInput:
+      type: object
+      description: Payload submitted from the public contact form
+      properties:
+        name:
+          type: string
+          minLength: 1
+        company:
+          type: ["string", "null"]
+        email:
+          type: string
+          minLength: 1
+        website:
+          type: ["string", "null"]
+        service:
+          type: string
+          minLength: 1
+        challenge:
+          type: string
+          minLength: 1
+        goal:
+          type: string
+          minLength: 1
+        timeline:
+          type: string
+          minLength: 1
+        budget:
+          type: string
+          minLength: 1
+        message:
+          type: string
+          minLength: 1
+        privacyAccepted:
+          type: boolean
+        honeypot:
+          type: ["string", "null"]
+          description: Hidden anti-spam field. Must stay empty for legitimate submissions.
+      required:
+        - name
+        - email
+        - service
+        - challenge
+        - goal
+        - timeline
+        - budget
+        - message
+        - privacyAccepted
+    ContactRequest:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        company:
+          type: ["string", "null"]
+        email:
+          type: string
+        website:
+          type: ["string", "null"]
+        service:
+          type: string
+        challenge:
+          type: string
+        goal:
+          type: string
+        timeline:
+          type: string
+        budget:
+          type: string
+        message:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
+      required:
+        - id
+        - name
+        - email
+        - service
+        - challenge
+        - goal
+        - timeline
+        - budget
+        - message
+        - createdAt
 
