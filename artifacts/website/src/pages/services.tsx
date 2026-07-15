@@ -31,7 +31,7 @@ export default function Services() {
               Leistungen
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Digitale Lösungen, die Ihren Arbeitsalltag spürbar verbessern. Keine Insellösungen, sondern durchdachte Systeme.
+              Moderne Webseiten, einfache Automatisierungen und Beratung, die digitale Prozesse verständlicher macht – ohne Hype und ohne unnötige Komplexität.
             </p>
           </div>
         </div>
@@ -62,12 +62,12 @@ export default function Services() {
       {/* CTA */}
       <section className="py-24 bg-muted/30">
         <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl">
-          <h2 className="text-3xl font-semibold mb-6">Unsicher, wo Sie anfangen sollen?</h2>
+          <h2 className="text-3xl font-semibold mb-6">Unsicher, was der sinnvolle erste Schritt ist?</h2>
           <p className="text-lg text-muted-foreground mb-10">
-            Das ist normal. Im Erstgespräch sortieren wir Ihre Herausforderungen und definieren den sinnvollsten ersten Schritt — völlig unverbindlich.
+            Das ist normal. Wir sortieren gemeinsam Ihre aktuelle Situation und entscheiden ehrlich, welcher Schritt jetzt realistisch und hilfreich ist.
           </p>
           <Link href="/kontakt" className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-base font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-primary text-primary-foreground shadow hover:bg-primary/90 h-14 px-10">
-            Kostenloses Erstgespräch
+            Unverbindlich sprechen
           </Link>
         </div>
       </section>

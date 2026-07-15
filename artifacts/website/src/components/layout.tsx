@@ -47,7 +47,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               </Link>
             ))}
             <Link href="/kontakt" className="ml-4 inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 h-9 px-4 py-2">
-              Kostenloses Erstgespräch
+              Unverbindlich sprechen
             </Link>
           </nav>
 
@@ -78,7 +78,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               ))}
               <div className="pt-4 mt-2 border-t border-border">
                 <Link href="/kontakt" className="w-full inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow-sm hover:bg-primary/90 h-11 px-8">
-                  Kostenloses Erstgespräch
+                  Unverbindlich sprechen
                 </Link>
               </div>
             </nav>
@@ -103,7 +103,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 {brand.companyName}
               </Link>
               <p className="text-muted-foreground max-w-sm">
-                Technologie soll Menschen unterstützen, nicht ersetzen. Moderne Webseiten, KI-Beratung und Automatisierung für KMU und Dienstleister.
+                Moderne Webseiten, einfache Automatisierungen und verständliche digitale Prozesse. Ehrlich geplant, hochwertig umgesetzt und transparent begleitet.
               </p>
             </div>
             
