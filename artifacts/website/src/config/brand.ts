@@ -1,14 +1,14 @@
 export const brand = {
-  name: "Dein Name",
-  companyName: "Dein Unternehmen",
-  role: "Builder & Strategischer Partner",
-  email: "hallo@example.de",
-  phone: "+49 123 456789",
+  name: "Vanessa Truong",
+  companyName: "Vanessa Truong",
+  role: "Webdesign · Automatisierung · AI Solutions",
+  email: "hallo@vanessatruong.de",
+  phone: "+49 000 000000",
   location: "Berlin, Deutschland",
   social: {
-    linkedin: "https://linkedin.com/in/dein-profil",
-    twitter: "https://twitter.com/dein-handle",
-    github: "https://github.com/dein-handle"
+    linkedin: "https://linkedin.com",
+    twitter: "https://twitter.com",
+    github: "https://github.com"
   },
-  calendly: "https://calendly.com/dein-link"
+  calendly: "https://calendly.com"
 };
