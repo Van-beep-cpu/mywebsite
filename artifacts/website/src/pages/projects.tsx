@@ -12,25 +12,25 @@ export default function Projects() {
   const caseStudies = [
     {
       id: 1,
-      title: "Digitales Setup für Beratungsunternehmen",
-      category: "Webentwicklung & Automatisierung",
-      situation: "Veraltete Website ohne klare Positionierung. Kontaktanfragen mussten manuell ins CRM (Pipedrive) übertragen werden. Termine wurden per E-Mail Ping-Pong vereinbart.",
-      challenge: "Schaffung eines professionellen digitalen Auftritts, der Vertrauen ausstrahlt, gekoppelt mit einem System, das administrative Arbeit minimiert.",
-      goal: "Steigerung der qualifizierten Anfragen und Reduktion der administrativen Zeit pro Lead um 80%.",
-      strategy: "Neuentwicklung der Website mit klarem UX-Fokus. Anbindung an Make.com zur Orchestrierung der Datenflüsse zwischen Website, CRM und Terminbuchungstool.",
-      solution: "Moderne, schnelle Website mit integriertem Qualifizierungs-Funnel. Automatische Anlage von Deals im CRM bei Anfrage. Automatischer Versand von Termin-Links bei passendem Lead-Scoring.",
+      title: "Modernes Website- und Anfrage-Setup",
+      category: "Webentwicklung & einfache Automatisierung",
+      situation: "Die Website erklärt Angebot und nächsten Schritt nicht klar genug. Anfragen werden manuell weitergeleitet und Termine umständlich per E-Mail abgestimmt.",
+      challenge: "Entwicklung eines hochwertigen Auftritts mit klarer Anfrageführung und einfachen Übergaben in bestehende Arbeitsabläufe.",
+      goal: "Interessenten sollen schneller verstehen, ob das Angebot passt, und interne Rückfragen sollen reduziert werden.",
+      strategy: "Neuentwicklung der Website mit klarer Seitenstruktur, verständlicher Copy und einer einfachen Automatisierung zwischen Formular, Benachrichtigung und Terminprozess.",
+      solution: "Moderne, schnelle Website mit klaren Kontaktwegen. Anfragen werden strukturiert erfasst und an die richtigen Stellen weitergeleitet, ohne unnötige manuelle Zwischenschritte.",
       tech: ["React/Vite", "Tailwind CSS", "Make.com", "Pipedrive API", "Calendly"],
       quote: "Platzhalter – Echte Kundenstimme wird hier ergänzt, sobald das Projekt live ist."
     },
     {
       id: 2,
-      title: "KI-Wissensdatenbank für Agentur",
-      category: "AI-Workflows",
-      situation: "Das Agenturwissen war über Google Drive, Notion und Slack verstreut. Neue Mitarbeiter brauchten Monate fürs Onboarding. Antworten auf häufige Fragen wurden ständig neu getippt.",
-      challenge: "Zentralisierung des Wissens ohne die bestehenden Systeme komplett ersetzen zu müssen.",
-      goal: "Ein System, das Fragen in natürlicher Sprache beantwortet und dabei auf die verstreuten Dokumente zugreift.",
-      strategy: "Aufbau eines RAG (Retrieval-Augmented Generation) Systems, das bestehende Dokumentenablagen indiziert und per Chat-Interface durchsuchbar macht.",
-      solution: "Ein interner KI-Assistent im Agentur-Look, der Projekt-Briefings, Guidelines und vergangene Konzepte kennt und Fragen direkt mit Quellenangabe beantwortet.",
+      title: "Interne Wissensstruktur für Agentur",
+      category: "Digitale Prozessklärung",
+      situation: "Wissen liegt an mehreren Orten, Zuständigkeiten sind nicht immer klar und wiederkehrende Fragen werden häufig neu beantwortet.",
+      challenge: "Mehr Orientierung schaffen, ohne direkt alle bestehenden Tools zu ersetzen.",
+      goal: "Ein verständlicher Ablauf, mit dem Informationen schneller gefunden, gepflegt und weitergegeben werden können.",
+      strategy: "Analyse der bestehenden Ablagen, Entwicklung einer klaren Struktur und Prüfung, wo einfache KI-Unterstützung bei Suche oder Zusammenfassung sinnvoll sein kann.",
+      solution: "Eine pragmatische Wissensstruktur mit dokumentierten Prozessen und optionaler KI-Unterstützung für Recherche, Zusammenfassung und Orientierung.",
       tech: ["OpenAI API", "Pinecone (Vector DB)", "Next.js", "OAuth Integrations"],
       quote: "Platzhalter – Echte Kundenstimme wird hier ergänzt, sobald das Projekt live ist."
     }
@@ -42,10 +42,10 @@ export default function Projects() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl space-y-6 fade-in">
             <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-foreground">
-              Projekte & Case Studies
+              Projekte & Beispiele
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Eine Auswahl an realen Use-Cases. So sieht die Verbindung von Strategie, Design und Technologie in der Praxis aus.
+              Transparente Beispiele dafür, wie Website, Automatisierung und Prozessklarheit zusammen gedacht werden können.
             </p>
           </div>
         </div>
@@ -125,9 +125,9 @@ export default function Projects() {
       {/* CTA */}
       <section className="py-24 bg-muted/30 border-t border-border">
         <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl">
-          <h2 className="text-3xl font-semibold mb-6">Ein ähnliches Projekt geplant?</h2>
+          <h2 className="text-3xl font-semibold mb-6">Ein ähnliches Vorhaben geplant?</h2>
           <p className="text-lg text-muted-foreground mb-10">
-            Wenn Sie vor ähnlichen Herausforderungen stehen, lassen Sie uns sprechen. Wir finden heraus, welcher Ansatz für Sie der beste ist.
+            Wenn Ihre Website, Tools oder Abläufe unklar geworden sind, lassen Sie uns gemeinsam sortieren, welcher nächste Schritt sinnvoll ist.
           </p>
           <Link href="/kontakt" className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-base font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-primary text-primary-foreground shadow hover:bg-primary/90 h-14 px-10">
             Erstgespräch anfragen

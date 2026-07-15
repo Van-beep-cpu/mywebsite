@@ -7,48 +7,48 @@ export const servicesList = [
     id: "moderne-webseiten",
     title: "Moderne Webseiten",
     slug: "/leistungen/moderne-webseiten",
-    description: "Professioneller Auftritt mit klarer Benutzerführung und starken SEO-Grundlagen.",
-    shortDesc: "Schnelle, professionelle Webauftritte.",
+    description: "Moderne Websites mit klarer Struktur, sauberer Umsetzung und einem Auftritt, der zu Ihrem Unternehmen passt.",
+    shortDesc: "Klare, moderne Webauftritte.",
     icon: "Globe"
   },
   {
     id: "ki-beratung",
-    title: "KI-Beratung",
+    title: "Digitale Prozessklärung",
     slug: "/leistungen/ki-beratung",
-    description: "Klarheit und Fokus. Erkennen, wo KI wirklich Sinn macht, ohne im Tool-Chaos zu versinken.",
-    shortDesc: "Strategischer Einsatz von KI-Tools.",
+    description: "Gemeinsam ordnen wir Tools, Abläufe und digitale Fragen, damit Entscheidungen nachvollziehbar werden.",
+    shortDesc: "Prozesse verständlich machen.",
     icon: "Lightbulb"
   },
   {
     id: "prozessautomatisierung",
     title: "Prozessautomatisierung",
     slug: "/leistungen/prozessautomatisierung",
-    description: "Wiederkehrende Aufgaben automatisieren, um mehr Zeit für das Wesentliche zu gewinnen.",
-    shortDesc: "Zeitfresser eliminieren.",
+    description: "Einfache Automatisierungen für wiederkehrende Aufgaben, Übergaben und Benachrichtigungen.",
+    shortDesc: "Routinearbeit sinnvoll reduzieren.",
     icon: "Settings"
   },
   {
     id: "ai-workflows",
-    title: "Individuelle AI-Workflows",
+    title: "Einfache KI-Workflows",
     slug: "/leistungen/ai-workflows",
-    description: "Maßgeschneiderte interne Assistenten und Systeme, die exakt zu Ihren Anforderungen passen.",
-    shortDesc: "Eigene Assistenten & GPT-Systeme.",
+    description: "Pragmatische KI-Unterstützung für Recherche, Strukturierung, Textarbeit oder interne Abläufe.",
+    shortDesc: "KI dort nutzen, wo sie hilft.",
     icon: "Workflow"
   },
   {
     id: "ai-business-consulting",
-    title: "AI Business Consulting",
+    title: "Digitale Strategie",
     slug: "/leistungen/ai-business-consulting",
-    description: "Strategische Beratung zur Implementierung von KI-Systemen in bestehende Geschäftsabläufe.",
-    shortDesc: "KI-Roadmaps & Implementierung.",
+    description: "Ein realistischer Plan für Website, Tools und Prozesse – passend zu Budget, Team und Arbeitsweise.",
+    shortDesc: "Prioritäten statt Tool-Hype.",
     icon: "Briefcase"
   },
   {
     id: "content-systeme",
     title: "Content-Systeme",
     slug: "/leistungen/content-systeme",
-    description: "Reibungslose Workflows für die Erstellung, Verwaltung und Mehrfachverwertung von Inhalten.",
-    shortDesc: "Effiziente Redaktions-Workflows.",
+    description: "Strukturen für Inhalte, Ideen und Veröffentlichungen, die im Alltag gepflegt werden können.",
+    shortDesc: "Inhalte besser organisieren.",
     icon: "FileText"
   }
 ];
@@ -57,32 +57,32 @@ export const processSteps = [
   {
     id: "1",
     title: "Verstehen",
-    description: "Wir analysieren die Ausgangssituation, Ziele und bestehenden Prozesse."
+    description: "Wir sprechen über Ziele, aktuelle Abläufe und die Stellen, an denen digitale Arbeit heute unnötig schwer ist."
   },
   {
     id: "2",
     title: "Strukturieren",
-    description: "Wir definieren Prioritäten und entwickeln eine klare Strategie."
+    description: "Ich ordne Anforderungen, mache Abhängigkeiten sichtbar und schlage einen realistischen ersten Schritt vor."
   },
   {
     id: "3",
     title: "Entwickeln",
-    description: "Wir gestalten und bauen die passende digitale Lösung."
+    description: "Ich konzipiere und entwickle die Lösung so, dass sie verständlich, wartbar und alltagstauglich bleibt."
   },
   {
     id: "4",
     title: "Implementieren",
-    description: "Die Lösung wird sauber in den Arbeitsalltag integriert."
+    description: "Wir führen die Lösung Schritt für Schritt ein und prüfen, ob sie zu Ihrem bestehenden Arbeitsalltag passt."
   },
   {
     id: "5",
     title: "Dokumentieren",
-    description: "Alle wichtigen Abläufe werden nachvollziehbar dokumentiert."
+    description: "Sie bekommen eine klare Dokumentation, damit Entscheidungen und Abläufe später nachvollziehbar bleiben."
   },
   {
     id: "6",
     title: "Optimieren",
-    description: "Wir analysieren die Nutzung und verbessern das System kontinuierlich."
+    description: "Nach dem Start schauen wir auf Nutzung, Feedback und sinnvolle Verbesserungen – ohne unnötige Komplexität."
   }
 ];
 

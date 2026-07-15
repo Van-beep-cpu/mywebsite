@@ -33,20 +33,20 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto text-center space-y-8 fade-in">
             <span className="inline-block py-1 px-3 rounded-full bg-muted text-muted-foreground text-sm font-medium tracking-wide">
-              Webseiten, KI und Automatisierung für moderne Unternehmen
+              Webseiten, Automatisierung und verständliche digitale Prozesse
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-semibold tracking-tight text-foreground text-balance">
-              Weniger manuelle Arbeit.<br />Mehr Klarheit.<br />Bessere Systeme.
+              Moderne Webseiten.<br />Einfache Automatisierung.<br />Klare digitale Prozesse.
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Ich entwickle moderne Webseiten, KI-Workflows und Automatisierungen, die Unternehmen professioneller, effizienter und zukunftsfähiger machen.
+              Ich unterstütze Unternehmen als Builder und strategischer Partner: mit hochwertigen Webseiten, pragmatischen Automatisierungen und klarer Übersetzung zwischen Technik und Geschäftsalltag.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
               <Link href="/kontakt" className="w-full sm:w-auto inline-flex items-center justify-center whitespace-nowrap rounded-md text-base font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-primary text-primary-foreground shadow hover:bg-primary/90 h-12 px-8">
-                Kostenloses Erstgespräch
+                Unverbindlich sprechen
               </Link>
               <Link href="/leistungen" className="w-full sm:w-auto inline-flex items-center justify-center whitespace-nowrap rounded-md text-base font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring border border-input bg-background hover:bg-accent hover:text-accent-foreground h-12 px-8">
-                Leistungen entdecken
+                Leistungen ansehen
               </Link>
             </div>
             
@@ -54,15 +54,15 @@ export default function Home() {
             <div className="pt-12 mt-12 border-t border-border/50 grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm text-muted-foreground font-medium">
               <div className="flex items-center justify-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-primary" />
-                <span>Verständlich erklärt.</span>
+                <span>Ehrlich eingeschätzt.</span>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-primary" />
-                <span>Individuell entwickelt.</span>
+                <span>Sauber umgesetzt.</span>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-primary" />
-                <span>Langfristig gedacht.</span>
+                <span>Transparent begleitet.</span>
               </div>
             </div>
           </div>
@@ -73,18 +73,18 @@ export default function Home() {
       <section className="py-24 bg-muted/30">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mb-16">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Technologie soll Sie unterstützen, nicht aufhalten.</h2>
-            <p className="text-lg text-muted-foreground">Viele Unternehmen stehen sich durch veraltete Systeme und unklare Prozesse selbst im Weg. Erkennen Sie sich in diesen Herausforderungen wieder?</p>
+            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Digitale Arbeit muss nicht komplizierter werden.</h2>
+            <p className="text-lg text-muted-foreground">Oft sind es nicht die großen technischen Fragen, sondern viele kleine Reibungen: unklare Abläufe, veraltete Seiten, manuelle Übergaben oder Tools, die niemand richtig nutzt.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: "Veraltete Website", desc: "Ihre Seite repräsentiert nicht mehr Ihre heutige Qualität und generiert zu wenig qualifizierte Anfragen." },
-              { title: "Manuelle Prozesse", desc: "Wiederkehrende Aufgaben fressen Zeit, die Sie eigentlich für Ihr Kerngeschäft oder strategische Arbeit benötigen." },
-              { title: "Unsicherheit bei KI", desc: "Sie wissen, dass KI wichtig ist, aber es fehlt die Klarheit, welche Tools wirklich helfen und nicht nur Hype sind." },
-              { title: "Tool-Chaos", desc: "Sie nutzen zu viele verschiedene Softwares, die nicht miteinander kommunizieren und Informationen isolieren." },
-              { title: "Fehlende Strategie", desc: "Es wird an vielen Ecken gleichzeitig gearbeitet, ohne einen klaren, roten Faden für die digitale Ausrichtung." },
-              { title: "Fachkräftemangel", desc: "Sie können nicht beliebig neues Personal einstellen und müssen bestehende Ressourcen effizienter nutzen." }
+              { title: "Website passt nicht mehr", desc: "Ihr Auftritt fühlt sich nicht mehr zeitgemäß an und erklärt nicht klar genug, warum Kunden Ihnen vertrauen können." },
+              { title: "Zu viel Handarbeit", desc: "Daten werden kopiert, E-Mails manuell sortiert oder Schritte wiederholt, die sich einfacher lösen lassen." },
+              { title: "Unsicherheit bei neuen Tools", desc: "Es gibt viele Möglichkeiten, aber wenig Orientierung, welche davon für Ihr Unternehmen wirklich sinnvoll sind." },
+              { title: "Tool-Chaos", desc: "Informationen liegen verstreut, Zuständigkeiten sind unklar und einfache Fragen kosten unnötig Zeit." },
+              { title: "Keine klare Reihenfolge", desc: "Es gibt Ideen und Baustellen, aber keinen pragmatischen Plan, womit man anfangen sollte." },
+              { title: "Begrenzte Ressourcen", desc: "Teams haben genug zu tun. Digitale Lösungen müssen entlasten, nicht zusätzliche Pflegearbeit erzeugen." }
             ].map((problem, idx) => (
               <div key={idx} className="bg-background border border-border p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-xl mb-3 text-foreground">{problem.title}</h3>
@@ -101,7 +101,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16">
             <div className="max-w-2xl">
               <h2 className="text-3xl md:text-4xl font-semibold mb-6">Meine Leistungen</h2>
-              <p className="text-lg text-muted-foreground">Ich unterstütze Sie als strategischer Partner und Builder bei der Umsetzung moderner digitaler Lösungen.</p>
+              <p className="text-lg text-muted-foreground">Ich entwickle Webauftritte, einfache Automatisierungen und digitale Strukturen, die zu Ihrem Unternehmen passen – verständlich geplant und sauber umgesetzt.</p>
             </div>
             <Link href="/leistungen" className="inline-flex items-center gap-2 text-primary font-medium hover:underline">
               Alle Details ansehen <ArrowRight className="w-4 h-4" />
@@ -125,7 +125,7 @@ export default function Home() {
           
           <div className="mt-16 text-center">
             <Link href="/kontakt" className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-base font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-primary text-primary-foreground shadow hover:bg-primary/90 h-12 px-8">
-              Kostenloses Erstgespräch vereinbaren
+              Unverbindliches Gespräch anfragen
             </Link>
           </div>
         </div>
@@ -135,8 +135,8 @@ export default function Home() {
       <section className="py-24 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Der Fokus liegt auf dem Ergebnis</h2>
-            <p className="text-primary-foreground/80 text-lg">Es geht nicht um Features oder neue Tools. Es geht darum, was diese Technologien für Ihren Arbeitsalltag bedeuten.</p>
+            <h2 className="text-3xl md:text-4xl font-semibold mb-6">Gute digitale Lösungen merkt man im Alltag</h2>
+            <p className="text-primary-foreground/80 text-lg">Nicht jedes Problem braucht ein großes System. Entscheidend ist, dass Website, Tools und Prozesse verständlicher werden und zuverlässig funktionieren.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10 max-w-5xl mx-auto">
@@ -145,8 +145,8 @@ export default function Home() {
                 <div className="w-2.5 h-2.5 rounded-full bg-white"></div>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">Eine Website bedeutet mehr Vertrauen.</h3>
-                <p className="text-primary-foreground/80">Ihre Kunden sehen auf den ersten Blick, dass sie es mit Profis zu tun haben.</p>
+                <h3 className="text-xl font-semibold mb-2">Eine Website schafft Orientierung.</h3>
+                <p className="text-primary-foreground/80">Besucher verstehen schneller, wer Sie sind, was Sie anbieten und wie der nächste Schritt aussieht.</p>
               </div>
             </div>
             <div className="flex gap-4">
@@ -154,8 +154,8 @@ export default function Home() {
                 <div className="w-2.5 h-2.5 rounded-full bg-white"></div>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">Automatisierung bedeutet mehr Zeit.</h3>
-                <p className="text-primary-foreground/80">Zeit für tiefere Kundenbeziehungen, strategische Arbeit oder einfach einen pünktlichen Feierabend.</p>
+                <h3 className="text-xl font-semibold mb-2">Automatisierung reduziert Reibung.</h3>
+                <p className="text-primary-foreground/80">Wiederkehrende Aufgaben laufen verlässlicher, ohne jeden Tag neu angestoßen werden zu müssen.</p>
               </div>
             </div>
             <div className="flex gap-4">
@@ -163,8 +163,8 @@ export default function Home() {
                 <div className="w-2.5 h-2.5 rounded-full bg-white"></div>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">KI-Beratung bedeutet mehr Klarheit.</h3>
-                <p className="text-primary-foreground/80">Sie wissen genau, welche Technologien für Sie relevant sind und welche Sie ignorieren können.</p>
+                <h3 className="text-xl font-semibold mb-2">Digitale Beratung schafft Klarheit.</h3>
+                <p className="text-primary-foreground/80">Sie bekommen eine ehrliche Einschätzung, welche Tools helfen können – und welche aktuell nicht nötig sind.</p>
               </div>
             </div>
             <div className="flex gap-4">
@@ -172,8 +172,8 @@ export default function Home() {
                 <div className="w-2.5 h-2.5 rounded-full bg-white"></div>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">Systeme bedeuten weniger Chaos.</h3>
-                <p className="text-primary-foreground/80">Informationen sind dort, wo sie gebraucht werden. Keine Zettelwirtschaft, kein langes Suchen.</p>
+                <h3 className="text-xl font-semibold mb-2">Struktur macht Arbeit nachvollziehbar.</h3>
+                <p className="text-primary-foreground/80">Abläufe, Verantwortlichkeiten und Informationen werden so geordnet, dass Teams besser damit arbeiten können.</p>
               </div>
             </div>
           </div>
@@ -185,7 +185,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mb-16">
             <h2 className="text-3xl md:text-4xl font-semibold mb-6">Wie wir zusammenarbeiten</h2>
-            <p className="text-lg text-muted-foreground">Ein verlässlicher Ablauf für vorhersagbare Ergebnisse. Keine Blackbox, keine Überraschungen.</p>
+            <p className="text-lg text-muted-foreground">Ein klarer Ablauf mit ehrlicher Kommunikation, sichtbaren Zwischenschritten und Raum für Fragen.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -205,11 +205,11 @@ export default function Home() {
 
           <div className="mt-16 pt-16 border-t border-border flex flex-col md:flex-row items-center justify-between gap-8">
             <div>
-              <h3 className="text-2xl font-semibold mb-2">Bereit für den ersten Schritt?</h3>
-              <p className="text-muted-foreground">Lassen Sie uns in einem 30-minütigen Gespräch herausfinden, ob eine Zusammenarbeit Sinn macht.</p>
+              <h3 className="text-2xl font-semibold mb-2">Möchten Sie Ihr Vorhaben sortieren?</h3>
+              <p className="text-muted-foreground">In einem unverbindlichen Gespräch klären wir, wo Sie stehen und welcher nächste Schritt realistisch ist.</p>
             </div>
             <Link href="/kontakt" className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-base font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-primary text-primary-foreground shadow hover:bg-primary/90 h-12 px-8 shrink-0">
-              Kostenloses Erstgespräch
+              Unverbindlich sprechen
             </Link>
           </div>
         </div>
@@ -220,27 +220,27 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-6">
-              <h2 className="text-3xl md:text-4xl font-semibold">Warum ich anders arbeite</h2>
+              <h2 className="text-3xl md:text-4xl font-semibold">Wie ich arbeite</h2>
               <p className="text-lg text-muted-foreground">
-                Ich bin kein allwissender KI-Guru und verkaufe Ihnen keinen "revolutionären Gamechanger". Ich bin ein Builder und strategischer Partner.
+                Ich arbeite transparent, pragmatisch und ohne Guru-Sprache. Ich baue Lösungen, erkläre Entscheidungen und sage offen, wenn etwas noch nicht sinnvoll ist.
               </p>
               <div className="space-y-4">
                 <div className="flex gap-4">
                   <div className="mt-1 text-primary shrink-0"><CheckCircle2 className="w-5 h-5" /></div>
-                  <p className="text-foreground"><strong>Ehrliche Beratung:</strong> Wenn eine Lösung für Sie (noch) keinen Sinn macht, sage ich Ihnen das. Technologie ist ein Werkzeug, kein Selbstzweck.</p>
+                  <p className="text-foreground"><strong>Ehrliche Einschätzung:</strong> Wenn eine Lösung zu groß, zu früh oder unnötig ist, spreche ich das an. Vertrauen entsteht durch Klarheit.</p>
                 </div>
                 <div className="flex gap-4">
                   <div className="mt-1 text-primary shrink-0"><CheckCircle2 className="w-5 h-5" /></div>
-                  <p className="text-foreground"><strong>Aus einer Hand:</strong> Konzept, Design und Entwicklung greifen nahtlos ineinander, ohne Abstimmungsverluste zwischen verschiedenen Agenturen.</p>
+                  <p className="text-foreground"><strong>Builder-Mentalität:</strong> Ich denke strategisch, setze aber auch praktisch um – von Struktur und Text bis zur technischen Umsetzung.</p>
                 </div>
                 <div className="flex gap-4">
                   <div className="mt-1 text-primary shrink-0"><CheckCircle2 className="w-5 h-5" /></div>
-                  <p className="text-foreground"><strong>Build in Public:</strong> Ich teile meine eigenen Prozesse, Learnings und Fehler offen. Sie arbeiten mit jemandem, der die Technologien selbst täglich nutzt.</p>
+                  <p className="text-foreground"><strong>Kontinuierliches Lernen:</strong> Ich entwickle meine Fähigkeiten laufend weiter und arbeite transparent mit dem, was ich sicher beurteilen und sauber liefern kann.</p>
                 </div>
               </div>
               <div className="pt-4">
                 <Link href="/ueber-mich" className="inline-flex items-center gap-2 text-primary font-medium hover:underline">
-                  Mehr über meine Philosophie <ArrowRight className="w-4 h-4" />
+                  Mehr über meine Arbeitsweise <ArrowRight className="w-4 h-4" />
                 </Link>
               </div>
             </div>
@@ -268,8 +268,8 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16">
             <div className="max-w-2xl">
-              <h2 className="text-3xl md:text-4xl font-semibold mb-6">Ausgewählte Projekte</h2>
-              <p className="text-lg text-muted-foreground">Einblicke in die Zusammenarbeit und Ergebnisse aus der Praxis.</p>
+              <h2 className="text-3xl md:text-4xl font-semibold mb-6">Projektbeispiele</h2>
+              <p className="text-lg text-muted-foreground">Transparente Beispiele für mögliche Projekte. Aktuell noch als Platzhalter gekennzeichnet, bis echte Arbeiten dokumentiert sind.</p>
             </div>
             <Link href="/projekte" className="inline-flex items-center gap-2 text-primary font-medium hover:underline">
               Alle Projekte ansehen <ArrowRight className="w-4 h-4" />
@@ -289,8 +289,8 @@ export default function Home() {
                   <span className="text-xs font-medium px-2.5 py-1 rounded bg-secondary text-secondary-foreground">Webentwicklung</span>
                   <span className="text-xs font-medium px-2.5 py-1 rounded bg-secondary text-secondary-foreground">Automatisierung</span>
                 </div>
-                <h3 className="text-2xl font-semibold mb-2 group-hover:text-primary transition-colors">Digitalisierung für Dienstleister {i}</h3>
-                <p className="text-muted-foreground line-clamp-2">Eine vollständige Neuausrichtung der digitalen Infrastruktur mit Fokus auf automatisiertes Lead-Management und performante Lead-Generierung.</p>
+                <h3 className="text-2xl font-semibold mb-2 group-hover:text-primary transition-colors">Digitales Setup für Dienstleister {i}</h3>
+                <p className="text-muted-foreground line-clamp-2">Beispiel für eine moderne Website mit klarer Anfrageführung und einfachen Automatisierungen im Hintergrund.</p>
               </div>
             ))}
           </div>
@@ -343,12 +343,12 @@ export default function Home() {
           <div className="max-w-4xl mx-auto bg-primary text-primary-foreground rounded-2xl p-8 md:p-16 text-center shadow-lg relative overflow-hidden">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-white/10 to-transparent"></div>
             <div className="relative z-10">
-              <h2 className="text-3xl md:text-5xl font-semibold mb-6">Lassen Sie uns über Ihr Vorhaben sprechen.</h2>
+              <h2 className="text-3xl md:text-5xl font-semibold mb-6">Lassen Sie uns Ihr digitales Vorhaben sortieren.</h2>
               <p className="text-lg text-primary-foreground/90 mb-10 max-w-2xl mx-auto">
-                Buchen Sie ein unverbindliches Erstgespräch. Wir klären Ihre aktuelle Situation und ob ich der richtige Partner für Ihr Projekt bin.
+                Erzählen Sie mir, was aktuell unklar, umständlich oder veraltet ist. Ich gebe Ihnen eine ehrliche Einschätzung, ob und wie ich helfen kann.
               </p>
               <Link href="/kontakt" className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-base font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-background text-primary shadow hover:bg-background/90 h-14 px-10">
-                Erstgespräch vereinbaren
+                Gespräch anfragen
               </Link>
             </div>
           </div>

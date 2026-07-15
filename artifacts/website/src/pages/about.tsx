@@ -18,7 +18,7 @@ export default function About() {
               Über mich
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Builder, Unternehmer und Ihr strategischer Partner für den sinnvollen Einsatz moderner Technologien.
+              Builder und strategischer Partner für moderne Webseiten, einfache Automatisierungen und verständlichere digitale Prozesse.
             </p>
           </div>
         </div>
@@ -48,32 +48,32 @@ export default function About() {
             {/* Content Column */}
             <div className="lg:col-span-7 space-y-12 slide-up stagger-1">
               <div className="prose prose-lg dark:prose-invert max-w-none text-muted-foreground">
-                <h2 className="text-2xl font-semibold text-foreground mb-4 mt-0">Technologie ehrlich gemacht.</h2>
+                <h2 className="text-2xl font-semibold text-foreground mb-4 mt-0">Digitale Arbeit ehrlich gemacht.</h2>
                 <p>
-                  Ich baue {brand.companyName} mit einem klaren Ziel auf: Ich möchte Unternehmen helfen, moderne Technologien wie KI und Automatisierung so einzusetzen, dass sie wirklich einen Mehrwert bieten — abseits vom aktuellen Hype.
+                  Ich baue {brand.companyName} mit einem klaren Ziel auf: Unternehmen dabei zu helfen, digitale Themen verständlicher zu machen und konkrete Lösungen umzusetzen, die im Alltag wirklich nutzbar sind.
                 </p>
                 <p>
-                  Als kreativer Problemlöser und Builder sitze ich selbst jeden Tag an der Tastatur. Ich empfehle nichts, was ich nicht selbst getestet oder gebaut habe. Mein Ansatz ist stark praxisorientiert: Weniger endlose Strategiepapiere, mehr lauffähige Prototypen und echte Ergebnisse.
+                  Als Builder arbeite ich nah an der Umsetzung: Struktur, Design, Entwicklung und einfache Automatisierungen gehören für mich zusammen. Ich lerne kontinuierlich dazu, teste neue Möglichkeiten sorgfältig und kommuniziere transparent, was ich sicher leisten kann.
                 </p>
 
-                <h3 className="text-xl font-semibold text-foreground mt-10 mb-4">Build in Public</h3>
+                <h3 className="text-xl font-semibold text-foreground mt-10 mb-4">Transparenz statt Guru-Sprache</h3>
                 <p>
-                  Transparenz ist mir wichtig. Ich dokumentiere meine eigenen Entscheidungen, Experimente, Fehler und Learnings beim Aufbau dieses Unternehmens öffentlich. Das zwingt mich, ehrlich zu bleiben und mein Wissen stetig zu hinterfragen. Für Sie bedeutet das: Sie wissen genau, wie ich denke und arbeite, noch bevor wir das erste Mal miteinander sprechen.
+                  Ich mache keine übertriebenen Versprechen und verkaufe keine fertige Wahrheit. Mir ist wichtig, Entscheidungen nachvollziehbar zu erklären, Grenzen offen anzusprechen und gemeinsam eine Lösung zu bauen, die zu Ihnen passt.
                 </p>
                 
-                <h3 className="text-xl font-semibold text-foreground mt-10 mb-4">Mein Hintergrund</h3>
+                <h3 className="text-xl font-semibold text-foreground mt-10 mb-4">Mein Ansatz</h3>
                 <p>
-                  Ich verbinde technologisches Verständnis mit einem Gespür für Design und Geschäftsmodelle. Eine gute Lösung ist nicht nur code-technisch sauber, sie muss auch gut aussehen, intuitiv bedienbar sein und ein reales geschäftliches Problem lösen.
+                  Ich verbinde ein gutes Verständnis für digitale Werkzeuge mit einem Blick für Design, Struktur und Geschäftsprozesse. Eine gute Lösung muss nicht nur technisch funktionieren, sondern verständlich sein und ein reales Problem lösen.
                 </p>
                 <p>
-                  Ob Sie ein Selbstständiger, eine Agentur oder ein KMU sind: Wenn Sie einen verlässlichen Partner suchen, der komplexe Technik verständlich übersetzt und sauber implementiert, sind wir wahrscheinlich ein gutes Match.
+                  Ob Selbstständige, Agentur oder KMU: Wenn Sie einen Partner suchen, der moderne Webseiten entwickelt, einfache Automatisierungen baut und digitale Prozesse verständlich macht, passen wir wahrscheinlich gut zusammen.
                 </p>
               </div>
 
               <div className="p-8 bg-muted/50 border border-border rounded-xl">
-                <h3 className="text-lg font-medium text-foreground mb-4">Lassen Sie uns connecten</h3>
+                <h3 className="text-lg font-medium text-foreground mb-4">Lassen Sie uns sprechen</h3>
                 <p className="text-muted-foreground mb-6">
-                  Ich freue mich immer über neuen Austausch. Folgen Sie mir auf meinen Kanälen oder schreiben Sie mir direkt.
+                  Wenn Sie ein digitales Vorhaben sortieren möchten oder wissen wollen, ob eine Idee sinnvoll umsetzbar ist, schreiben Sie mir gerne.
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a href={brand.social.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-6">
