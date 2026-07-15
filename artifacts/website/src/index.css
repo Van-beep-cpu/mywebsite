@@ -216,3 +216,120 @@
     transform: none;
   }
 }
+
+@layer base {
+  :root {
+    --color-background: #F7F3EC;
+    --color-surface: #FFFDF9;
+    --color-text: #191919;
+    --color-muted: #67645F;
+    --color-primary: #B39158;
+    --color-primary-dark: #866A3F;
+    --color-accent: #687A72;
+    --color-accent-light: #DDE4DF;
+    --color-border: #D9D2C7;
+
+    --background: 38 41% 95%;
+    --foreground: 0 0% 10%;
+    --border: 35 22% 82%;
+    --input: 35 22% 82%;
+    --ring: 36 35% 52%;
+    --card: 40 100% 99%;
+    --card-foreground: 0 0% 10%;
+    --card-border: 35 22% 82%;
+    --popover: 40 100% 99%;
+    --popover-foreground: 0 0% 10%;
+    --popover-border: 35 22% 82%;
+    --primary: 36 35% 52%;
+    --primary-foreground: 40 100% 99%;
+    --secondary: 38 30% 91%;
+    --secondary-foreground: 0 0% 10%;
+    --muted: 38 30% 91%;
+    --muted-foreground: 35 4% 39%;
+    --accent: 142 9% 44%;
+    --accent-foreground: 40 100% 99%;
+    --app-font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --app-font-serif: Georgia, "Times New Roman", serif;
+  }
+
+  html { scroll-behavior: smooth; }
+  body { background: var(--color-background); color: var(--color-text); }
+  h1, h2, h3 { letter-spacing: -0.045em; }
+  a, button { outline-offset: 4px; }
+  a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid var(--color-primary-dark); }
+}
+
+@layer utilities {
+  .bg-surface { background-color: var(--color-surface); }
+  .bg-accent-light\/50 { background-color: color-mix(in srgb, var(--color-accent-light) 50%, transparent); }
+  .section-pad { padding-block: clamp(4rem, 8vw, 8rem); }
+  .kicker { color: var(--color-primary-dark); font-size: .78rem; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; }
+  .display-title { font-family: var(--app-font-serif); font-size: clamp(3rem, 8vw, 7.4rem); line-height: .92; font-weight: 500; max-width: 12ch; }
+  .hero-grid { background: radial-gradient(circle at 85% 15%, rgba(221,228,223,.85), transparent 32%), linear-gradient(120deg, var(--color-background), var(--color-surface)); }
+  .btn-primary, .btn-secondary { min-height: 46px; display: inline-flex; align-items: center; justify-content: center; gap: .6rem; border-radius: .55rem; padding: .85rem 1.15rem; font-weight: 700; transition: transform .2s ease, background-color .2s ease, border-color .2s ease; }
+  .btn-primary { background: var(--color-text); color: var(--color-surface); box-shadow: inset 4px 0 0 var(--color-primary); }
+  .btn-primary:hover { background: var(--color-primary-dark); transform: translateY(-1px); }
+  .btn-secondary { border: 1px solid var(--color-border); color: var(--color-text); background: color-mix(in srgb, var(--color-surface) 55%, transparent); }
+  .btn-secondary:hover { border-color: var(--color-primary); background: var(--color-surface); }
+  .workflow-panel { position: relative; min-height: 520px; border: 1px solid var(--color-border); background: rgba(255,253,249,.74); padding: clamp(1.2rem,3vw,2rem); display: grid; align-content: center; gap: 1rem; box-shadow: 0 30px 80px rgba(25,25,25,.08); }
+  .workflow-orbit { position: absolute; inset: 12%; border: 1px dashed var(--color-border); border-radius: 48% 52% 42% 58%; }
+  .workflow-step { position: relative; z-index: 1; width: min(100%, 390px); display: flex; align-items: center; gap: 1rem; border-left: 3px solid var(--color-primary); background: var(--color-surface); padding: 1rem; box-shadow: 0 12px 30px rgba(25,25,25,.06); }
+  .workflow-step:nth-child(odd) { margin-left: auto; }
+  .workflow-step span, .service-number { color: var(--color-primary-dark); font-family: var(--app-font-serif); font-size: 1.6rem; }
+  .workflow-note { position: relative; z-index: 1; margin-top: 1rem; color: var(--color-muted); max-width: 32rem; }
+  .editorial-heading { display: grid; gap: 1rem; max-width: 780px; }
+  .editorial-heading h2, .before-after h2, .about-composition h2, .automation-card h2, .final-cta h2 { font-family: var(--app-font-serif); font-size: clamp(2.4rem, 5vw, 5.1rem); line-height: .98; font-weight: 500; }
+  .editorial-heading p:not(.kicker), .before-after p, .about-composition p, .automation-card p, .final-cta p { color: var(--color-muted); font-size: clamp(1.02rem, 1.6vw, 1.2rem); line-height: 1.75; }
+  .services-editorial { border-top: 1px solid var(--color-border); }
+  .service-row { display: grid; gap: 1.5rem; padding: 2rem 0; border-bottom: 1px solid var(--color-border); color: inherit; }
+  .service-row h3 { font-size: clamp(1.6rem,3vw,2.4rem); font-weight: 650; }
+  .service-row p { color: var(--color-muted); max-width: 48rem; }
+  .service-row ul { display: flex; flex-wrap: wrap; gap: .55rem; align-content: start; }
+  .service-row li { border: 1px solid var(--color-border); background: var(--color-surface); padding: .45rem .7rem; font-size: .9rem; }
+  .before-after { background: var(--color-surface); border-top: 4px solid var(--color-border); padding: clamp(1.5rem,4vw,3rem); min-height: 320px; display: grid; align-content: end; }
+  .after { border-color: var(--color-accent); transform: translateY(2rem); }
+  .process-line { display: grid; gap: 1px; background: var(--color-border); }
+  .process-line article { background: var(--color-background); padding: 1.4rem; }
+  .process-line span { color: var(--color-primary-dark); font-weight: 800; }
+  .process-line h3 { font-size: 1.35rem; margin-top: 1rem; }
+  .process-line p { color: var(--color-muted); margin-top: .6rem; }
+  .about-composition { background: linear-gradient(90deg, var(--color-surface) 0 54%, var(--color-background) 54%); }
+  .text-link { display: inline-flex; align-items: center; gap: .45rem; margin-top: 1.5rem; color: var(--color-primary-dark); font-weight: 750; }
+  .portrait-system { position: relative; min-height: 520px; border: 1px solid var(--color-border); background: radial-gradient(circle at 35% 30%, var(--color-accent-light), transparent 33%), var(--color-surface); overflow: hidden; }
+  .portrait-mark { position: absolute; inset: 18% auto auto 12%; font-family: var(--app-font-serif); font-size: clamp(7rem,18vw,15rem); color: var(--color-text); }
+  .principle { position: absolute; background: var(--color-background); border: 1px solid var(--color-border); padding: .8rem 1rem; color: var(--color-muted); }
+  .one { right: 8%; top: 18%; } .two { left: 10%; bottom: 20%; } .three { right: 14%; bottom: 12%; }
+  .automation-card { border-left: 4px solid var(--color-primary); padding-left: 1.5rem; }
+  .automation-flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: .75rem; align-items: center; }
+  .automation-flow div { min-height: 120px; display: grid; place-items: center; background: var(--color-surface); border: 1px solid var(--color-border); position: relative; font-weight: 750; }
+  .automation-flow div:not(:last-child)::after { content: "→"; position: absolute; right: -.7rem; color: var(--color-primary-dark); z-index: 2; }
+  .build-public { background: var(--color-text); color: var(--color-surface); }
+  .build-public .editorial-heading p, .build-public .kicker { color: color-mix(in srgb, var(--color-surface) 72%, transparent); }
+  .notes-grid { display: grid; gap: 1rem; }
+  .notes-grid article { border-top: 1px solid rgba(255,253,249,.24); padding: 1.2rem 0; font-size: clamp(1.2rem, 2vw, 1.7rem); font-family: var(--app-font-serif); }
+  .final-cta { background: var(--color-accent-light); padding: clamp(2rem, 6vw, 5rem); max-width: 1050px; margin-inline: auto; }
+}
+
+@media (min-width: 768px) {
+  .service-row { grid-template-columns: 90px 1fr minmax(220px, 330px); align-items: start; }
+  .process-line { grid-template-columns: repeat(3, 1fr); }
+  .notes-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 767px) {
+  .section-pad { padding-block: 3.5rem; }
+  .workflow-panel, .portrait-system { min-height: 390px; }
+  .after { transform: none; }
+  .automation-flow { grid-template-columns: 1fr; }
+  .automation-flow div:not(:last-child)::after { content: "↓"; right: auto; bottom: -.85rem; }
+  .about-composition { background: var(--color-surface); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .btn-primary:hover { transform: none; }
+}
+
+@layer utilities {
+  .hover\:bg-primary-dark:hover { background-color: var(--color-primary-dark); }
+}
