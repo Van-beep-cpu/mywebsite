@@ -136,7 +136,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section-pad">
+      <section className="section-pad automation-section">
         <div className="container mx-auto grid gap-10 px-4 lg:grid-cols-[0.8fr_1.2fr] md:px-6">
           <div className="automation-card"><p className="kicker">Automatisierungsbeispiel</p><h2>Von der Anfrage zur Übersicht.</h2><p>Eine Anfrage kommt rein, wird automatisch vorsortiert, relevante Informationen landen in einer klaren Übersicht und die nächste Antwort ist vorbereitet.</p></div>
           <div className="automation-flow">{['Formular', 'Sortierung', 'Aufgabe', 'Antwort'].map((item) => <div key={item}>{item}</div>)}</div>

@@ -24,11 +24,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-[100dvh] flex flex-col bg-background text-foreground">
       {/* Navbar */}
-      <header className="sticky top-0 z-50 w-full border-b border-border/70 bg-background/85 backdrop-blur-xl supports-[backdrop-filter]:bg-background/75">
-        <div className="container mx-auto px-4 md:px-6 h-16 md:h-[4.5rem] flex items-center justify-between">
-          <Link href="/" className="font-serif text-xl tracking-tight flex items-center gap-3">
-            <span className="w-9 h-9 rounded-md bg-foreground text-background flex items-center justify-center font-bold text-sm">
-              {brand.companyName.charAt(0)}
+      <header className="site-header sticky top-0 z-50 w-full border-b border-border/70 bg-background/88 backdrop-blur-xl supports-[backdrop-filter]:bg-background/78">
+        <div className="container mx-auto px-4 md:px-6 h-16 md:h-[4.25rem] flex items-center justify-between">
+          <Link href="/" className="brand-lockup font-serif text-xl tracking-tight flex items-center gap-3">
+            <span className="brand-mark w-9 h-9 rounded-md bg-foreground text-background flex items-center justify-center font-bold text-sm">
+              VT
             </span>
             {brand.companyName}
           </Link>
@@ -53,9 +53,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
           {/* Mobile Menu Toggle */}
           <button
-            className="md:hidden p-2 -mr-2 text-foreground"
+            className="md:hidden min-h-11 min-w-11 p-2 -mr-2 text-foreground"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Menü umschalten"
+            aria-expanded={isMobileMenuOpen}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -96,9 +97,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-8">
             <div className="md:col-span-2 space-y-4">
-              <Link href="/" className="font-serif text-xl tracking-tight flex items-center gap-3">
-                <span className="w-9 h-9 rounded-md bg-foreground text-background flex items-center justify-center font-bold text-sm">
-                  {brand.companyName.charAt(0)}
+              <Link href="/" className="brand-lockup font-serif text-xl tracking-tight flex items-center gap-3">
+                <span className="brand-mark w-9 h-9 rounded-md bg-foreground text-background flex items-center justify-center font-bold text-sm">
+                  VT
                 </span>
                 {brand.companyName}
               </Link>

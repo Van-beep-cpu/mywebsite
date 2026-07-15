@@ -333,3 +333,181 @@
 @layer utilities {
   .hover\:bg-primary-dark:hover { background-color: var(--color-primary-dark); }
 }
+
+@layer utilities {
+  .site-header {
+    transition: background-color .25s ease, box-shadow .25s ease, min-height .25s ease;
+    box-shadow: 0 1px 0 rgba(25, 25, 25, .03);
+  }
+
+  .brand-lockup {
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
+  .brand-mark {
+    box-shadow: inset 0 -3px 0 var(--color-primary);
+    letter-spacing: .02em;
+  }
+
+  .hero-grid::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto auto;
+    width: min(48vw, 680px);
+    height: min(48vw, 680px);
+    background:
+      linear-gradient(135deg, transparent 0 48%, color-mix(in srgb, var(--color-border) 70%, transparent) 49% 51%, transparent 52%),
+      repeating-linear-gradient(135deg, transparent 0 20px, color-mix(in srgb, var(--color-border) 60%, transparent) 21px 22px, transparent 23px 44px);
+    opacity: .42;
+    clip-path: ellipse(72% 58% at 72% 12%);
+    pointer-events: none;
+  }
+
+  .workflow-panel::before {
+    content: "";
+    position: absolute;
+    inset: 1.2rem;
+    background-image:
+      linear-gradient(var(--color-border) 1px, transparent 1px),
+      linear-gradient(90deg, var(--color-border) 1px, transparent 1px);
+    background-size: 44px 44px;
+    opacity: .28;
+    mask-image: radial-gradient(circle at center, black, transparent 72%);
+    pointer-events: none;
+  }
+
+  .workflow-step:not(:last-of-type)::after {
+    content: "";
+    position: absolute;
+    left: 1.55rem;
+    bottom: -1.05rem;
+    width: 1px;
+    height: 1.05rem;
+    background: linear-gradient(var(--color-primary), var(--color-border));
+  }
+
+  .service-row {
+    position: relative;
+    text-decoration: none;
+    transition: padding-left .2s ease, background-color .2s ease;
+  }
+
+  .service-row::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1.4rem;
+    bottom: 1.4rem;
+    width: 0;
+    background: var(--color-primary);
+    transition: width .2s ease;
+  }
+
+  .service-row:hover {
+    padding-left: 1rem;
+    background: color-mix(in srgb, var(--color-surface) 42%, transparent);
+  }
+
+  .service-row:hover::before {
+    width: 3px;
+  }
+
+  .process-line article {
+    min-height: 230px;
+    transition: background-color .2s ease, transform .2s ease;
+  }
+
+  .process-line article:hover {
+    background: var(--color-surface);
+    transform: translateY(-2px);
+  }
+
+  .portrait-system::before {
+    content: "";
+    position: absolute;
+    inset: auto 8% 10% auto;
+    width: 42%;
+    aspect-ratio: 1;
+    border-radius: 42% 58% 50% 50%;
+    border: 1px solid var(--color-primary);
+    background: color-mix(in srgb, var(--color-primary) 12%, transparent);
+  }
+
+  .portrait-system::after {
+    content: "Music · Systems · Build honestly";
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    max-width: 13rem;
+    color: var(--color-muted);
+    font-size: .88rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+
+  .automation-section {
+    background:
+      linear-gradient(90deg, transparent 0 50%, color-mix(in srgb, var(--color-surface) 72%, transparent) 50%),
+      var(--color-background);
+  }
+
+  .automation-flow div {
+    overflow: hidden;
+  }
+
+  .automation-flow div::before {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    height: 4px;
+    background: var(--color-accent);
+    transform: scaleX(.18);
+    transform-origin: left;
+    transition: transform .24s ease;
+  }
+
+  .automation-flow div:hover::before {
+    transform: scaleX(1);
+  }
+
+  .final-cta {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .final-cta::after {
+    content: "";
+    position: absolute;
+    right: clamp(1rem, 5vw, 4rem);
+    bottom: clamp(1rem, 5vw, 3rem);
+    width: clamp(5rem, 18vw, 12rem);
+    aspect-ratio: 1;
+    border-radius: 999px;
+    border: 1px solid color-mix(in srgb, var(--color-accent) 42%, transparent);
+    background: color-mix(in srgb, var(--color-surface) 35%, transparent);
+    pointer-events: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .process-line { grid-template-columns: repeat(6, 1fr); }
+  .process-line article:nth-child(even) { padding-top: 4rem; }
+}
+
+@media (max-width: 767px) {
+  .display-title { font-size: clamp(2.85rem, 15vw, 4.25rem); max-width: 11ch; }
+  .hero-grid::before { width: 100vw; height: 55vw; opacity: .22; }
+  .service-row:hover { padding-left: 0; }
+  .automation-section { background: var(--color-background); }
+  .final-cta::after { opacity: .35; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .service-row, .process-line article, .automation-flow div::before, .site-header {
+    transition: none;
+  }
+  .service-row:hover, .process-line article:hover {
+    transform: none;
+  }
+}
