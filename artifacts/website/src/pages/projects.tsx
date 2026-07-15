@@ -38,23 +38,23 @@ export default function Projects() {
 
   return (
     <Layout>
-      <section className="pt-24 pb-16 md:pt-32 md:pb-24 bg-muted/30">
-        <div className="container mx-auto px-4 md:px-6">
+      <section className="page-hero">
+        <div className="site-container">
           <div className="max-w-3xl space-y-6 fade-in">
-            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-foreground">
+            <h1 className="page-title">
               Projekte & Beispiele
             </h1>
-            <p className="text-xl text-muted-foreground leading-relaxed">
+            <p className="lead">
               Transparente Beispiele dafür, wie Website, Automatisierung und Prozessklarheit zusammen gedacht werden können.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="py-20">
-        <div className="container mx-auto px-4 md:px-6">
+      <section className="page-section">
+        <div className="site-container">
           
-          <div className="mb-12 p-4 bg-primary/10 border border-primary/20 rounded-lg flex items-start gap-4 text-primary max-w-4xl slide-up">
+          <div className="mb-12 p-4 bg-primary/10 border border-primary/20 rounded-sm flex items-start gap-4 text-primary max-w-4xl slide-up">
             <Box className="w-5 h-5 shrink-0 mt-0.5" />
             <div>
               <p className="font-medium text-sm">Hinweis zur Transparenz</p>
@@ -72,10 +72,10 @@ export default function Projects() {
                   <h2 className="text-3xl font-semibold text-foreground mb-6">{project.title}</h2>
                   
                   {/* Visual Placeholder */}
-                  <div className="aspect-[21/9] bg-muted border border-border rounded-xl flex items-center justify-center mb-10 overflow-hidden relative">
+                  <div className="aspect-[21/9] bg-muted border border-border rounded-sm flex items-center justify-center mb-10 overflow-hidden relative">
                     <div className="absolute inset-0 bg-gradient-to-tr from-muted/80 to-transparent"></div>
                     <div className="relative z-10 text-center">
-                       <span className="text-sm font-medium border border-border bg-background/80 backdrop-blur px-4 py-2 rounded-full inline-block text-muted-foreground">
+                       <span className="text-sm font-medium border border-border bg-background/80 backdrop-blur px-4 py-2 rounded-sm inline-block text-muted-foreground">
                         Platzhalter – Projekt-Screenshots folgen
                       </span>
                     </div>
@@ -93,12 +93,12 @@ export default function Projects() {
                       <p className="text-muted-foreground">{project.strategy} {project.solution}</p>
                     </div>
                     
-                    <div className="p-6 bg-muted/30 border border-border rounded-xl italic text-muted-foreground">
+                    <div className="p-6 quiet-band border border-border rounded-sm italic text-muted-foreground">
                       "{project.quote}"
                     </div>
                   </div>
 
-                  <div className="space-y-8 p-6 bg-background border border-border rounded-xl h-fit">
+                  <div className="space-y-8 p-6 bg-background border border-border rounded-sm h-fit">
                     <div>
                       <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-3">Ziel</h3>
                       <p className="text-foreground text-sm leading-relaxed">{project.goal}</p>
@@ -123,8 +123,8 @@ export default function Projects() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 bg-muted/30 border-t border-border">
-        <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl">
+      <section className="page-section quiet-band border-t border-border">
+        <div className="site-container text-center max-w-3xl">
           <h2 className="text-3xl font-semibold mb-6">Ein ähnliches Vorhaben geplant?</h2>
           <p className="text-lg text-muted-foreground mb-10">
             Wenn Ihre Website, Tools oder Abläufe unklar geworden sind, lassen Sie uns gemeinsam sortieren, welcher nächste Schritt sinnvoll ist.

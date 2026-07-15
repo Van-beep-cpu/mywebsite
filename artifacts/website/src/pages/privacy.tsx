@@ -7,19 +7,19 @@ export default function Privacy() {
 
   return (
     <Layout>
-      <section className="pt-24 pb-16 md:pt-32 md:pb-24 bg-muted/30">
-        <div className="container mx-auto px-4 md:px-6 max-w-3xl">
-          <h1 className="text-4xl font-semibold tracking-tight text-foreground mb-6">
+      <section className="page-hero">
+        <div className="site-container max-w-3xl">
+          <h1 className="page-title mb-6">
             Datenschutzerklärung
           </h1>
-          <div className="p-4 bg-primary/10 border border-primary/20 rounded-lg text-primary text-sm font-medium mb-8">
+          <div className="p-4 bg-primary/10 border border-primary/20 rounded-sm text-primary text-sm font-medium mb-8">
             Platzhalter – Ein vollständiger, anwaltlich geprüfter Datenschultzhinweis muss hier ergänzt werden.
           </div>
         </div>
       </section>
 
-      <section className="py-12">
-        <div className="container mx-auto px-4 md:px-6 max-w-3xl">
+      <section className="page-section">
+        <div className="site-container max-w-3xl">
           <div className="prose prose-lg dark:prose-invert max-w-none text-muted-foreground">
             <h2>1. Datenschutz auf einen Blick</h2>
             <h3>Allgemeine Hinweise</h3>

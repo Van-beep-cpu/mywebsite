@@ -138,7 +138,7 @@ export default function ServiceDetail() {
   if (!service) {
     return (
       <Layout>
-        <div className="container mx-auto px-4 py-32 text-center">
+        <div className="site-container py-32 text-center">
           <h1 className="text-3xl font-semibold mb-4">Leistung nicht gefunden</h1>
           <p className="text-muted-foreground mb-8">Die angefragte Seite existiert leider nicht.</p>
           <Link href="/leistungen" className="inline-flex items-center text-primary hover:underline">
@@ -152,16 +152,16 @@ export default function ServiceDetail() {
   return (
     <Layout>
       {/* Breadcrumb & Header */}
-      <section className="pt-24 pb-16 bg-muted/30">
-        <div className="container mx-auto px-4 md:px-6 max-w-4xl">
+      <section className="page-hero">
+        <div className="site-container max-w-4xl">
           <Link href="/leistungen" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-8 transition-colors">
             <ArrowLeft className="w-4 h-4" /> Alle Leistungen
           </Link>
           <div className="space-y-4 fade-in">
-            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-foreground">
+            <h1 className="page-title">
               {service.title}
             </h1>
-            <p className="text-xl text-muted-foreground leading-relaxed">
+            <p className="lead">
               {service.intro}
             </p>
           </div>
@@ -169,8 +169,8 @@ export default function ServiceDetail() {
       </section>
 
       {/* Content */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 md:px-6 max-w-4xl">
+      <section className="page-section">
+        <div className="site-container max-w-4xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             {/* Nutzen */}
             <div className="slide-up">
@@ -191,7 +191,7 @@ export default function ServiceDetail() {
               <ul className="space-y-4">
                 {service.scope.map((item: string, idx: number) => (
                   <li key={idx} className="flex gap-3 text-foreground">
-                    <div className="w-1.5 h-1.5 rounded-full bg-primary shrink-0 mt-2.5" />
+                    <div className="w-1.5 h-1.5 rounded-sm bg-primary shrink-0 mt-2.5" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -202,8 +202,8 @@ export default function ServiceDetail() {
       </section>
 
       {/* Service Footer CTA */}
-      <section className="py-24 border-t border-border">
-        <div className="container mx-auto px-4 md:px-6 text-center max-w-3xl">
+      <section className="page-section border-t border-border">
+        <div className="site-container text-center max-w-3xl">
           <h2 className="text-3xl font-semibold mb-6">Klingt nach dem, was Sie brauchen?</h2>
           <p className="text-lg text-muted-foreground mb-10">
             Lassen Sie uns im Erstgespräch klären, wie wir {service.title.toLowerCase()} in Ihrem Unternehmen optimal umsetzen können.

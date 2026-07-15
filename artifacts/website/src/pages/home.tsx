@@ -3,7 +3,8 @@ import { Link } from "wouter";
 import { Layout } from "@/components/layout";
 import { useDocumentTitle } from "@/hooks/use-document-title";
 import { useScrollToTop, processSteps } from "@/lib/constants";
-import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { PortraitVisual } from "@/components/portrait-visual";
 
 const coreServices = [
   {
@@ -41,45 +42,27 @@ export default function Home() {
 
   return (
     <Layout>
-      <section className="hero-grid section-pad relative overflow-hidden">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="grid gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
-            <div className="max-w-3xl fade-in">
-              <p className="kicker mb-6">Webdesign · Automatisierung · AI Solutions</p>
+      <section className="hero-composition page-hero">
+        <div className="site-container">
+          <div className="grid gap-14 lg:grid-cols-[minmax(0,0.6fr)_minmax(320px,0.4fr)] lg:items-center">
+            <div className="fade-in">
+              <p className="eyebrow mb-7">WEB DESIGN · AUTOMATION · AI SOLUTIONS</p>
               <h1 className="display-title text-balance">Moderne Websites und intelligente Systeme, die Arbeit abnehmen.</h1>
-              <p className="mt-7 max-w-2xl text-lg leading-8 text-muted-foreground md:text-xl">
+              <p className="lead mt-8">
                 Ich unterstütze Unternehmen dabei, professioneller aufzutreten, wiederkehrende Abläufe zu automatisieren und moderne Technologie verständlich einzusetzen.
               </p>
-              <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-                <Link href="/kontakt" className="btn-primary">Kostenloses Erstgespräch <ArrowRight className="h-4 w-4" /></Link>
+              <div className="mt-10 flex flex-col gap-3 sm:flex-row">
+                <Link href="/kontakt" className="btn-primary">Projekt besprechen <ArrowRight className="h-4 w-4" /></Link>
                 <Link href="/leistungen" className="btn-secondary">Leistungen ansehen</Link>
               </div>
             </div>
-
-            <div className="workflow-panel slide-up" aria-label="Einfacher Workflow von Anfrage bis mehr Zeit">
-              <div className="workflow-orbit" aria-hidden="true" />
-              {["Anfrage", "automatische Verarbeitung", "klare Übersicht", "mehr Zeit"].map((step, index) => (
-                <div className="workflow-step" key={step}>
-                  <span>0{index + 1}</span>
-                  <strong>{step}</strong>
-                </div>
-              ))}
-              <p className="workflow-note">Ein schlanker Ablauf statt Tool-Chaos: verständlich geplant, sauber verbunden, im Alltag nutzbar.</p>
-            </div>
+            <PortraitVisual />
           </div>
         </div>
       </section>
 
-      <section className="border-y border-border bg-surface/70 py-6">
-        <div className="container mx-auto grid gap-4 px-4 text-sm text-muted-foreground md:grid-cols-3 md:px-6">
-          {['Ehrlich eingeschätzt', 'Sauber umgesetzt', 'Transparent begleitet'].map((item) => (
-            <div className="flex items-center gap-2" key={item}><CheckCircle2 className="h-4 w-4 text-primary" />{item}</div>
-          ))}
-        </div>
-      </section>
-
-      <section className="section-pad">
-        <div className="container mx-auto px-4 md:px-6">
+      <section className="page-section">
+        <div className="site-container">
           <div className="editorial-heading">
             <p className="kicker">Leistungen</p>
             <h2>Digitale Lösungen, die Kunden verstehen und Teams entlasten.</h2>
@@ -102,15 +85,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section-pad bg-accent-light/50">
+      <section className="page-section quiet-band">
         <div className="container mx-auto grid gap-10 px-4 md:grid-cols-2 md:px-6">
           <div className="before-after before"><p className="kicker">Vorher</p><h2>Viele Ideen, aber unklare Reihenfolge.</h2><p>Veraltete Seiten, manuelle Übergaben, verstreute Informationen und Unsicherheit bei neuen Tools kosten Aufmerksamkeit.</p></div>
           <div className="before-after after"><p className="kicker">Nachher</p><h2>Ein digitales Setup, das Orientierung gibt.</h2><p>Besuchende finden schneller den nächsten Schritt, Routineaufgaben laufen verlässlicher und Entscheidungen werden nachvollziehbar.</p></div>
         </div>
       </section>
 
-      <section id="prozess" className="section-pad">
-        <div className="container mx-auto px-4 md:px-6">
+      <section id="prozess" className="page-section">
+        <div className="site-container">
           <div className="editorial-heading"><p className="kicker">Prozess</p><h2>Ruhig, klar und Schritt für Schritt.</h2><p>Ein transparenter Ablauf mit sichtbaren Zwischenschritten, ehrlicher Einschätzung und Raum für Fragen.</p></div>
           <div className="process-line mt-14">
             {processSteps.map((step) => <article key={step.id}><span>0{step.id}</span><h3>{step.title}</h3><p>{step.description}</p></article>)}
@@ -118,7 +101,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section-pad about-composition">
+      <section className="page-section about-composition">
         <div className="container mx-auto grid gap-12 px-4 lg:grid-cols-[0.95fr_1.05fr] lg:items-center md:px-6">
           <div>
             <p className="kicker">Über Vanessa</p>
@@ -136,22 +119,22 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section-pad automation-section">
+      <section className="page-section quiet-band">
         <div className="container mx-auto grid gap-10 px-4 lg:grid-cols-[0.8fr_1.2fr] md:px-6">
           <div className="automation-card"><p className="kicker">Automatisierungsbeispiel</p><h2>Von der Anfrage zur Übersicht.</h2><p>Eine Anfrage kommt rein, wird automatisch vorsortiert, relevante Informationen landen in einer klaren Übersicht und die nächste Antwort ist vorbereitet.</p></div>
           <div className="automation-flow">{['Formular', 'Sortierung', 'Aufgabe', 'Antwort'].map((item) => <div key={item}>{item}</div>)}</div>
         </div>
       </section>
 
-      <section id="build-in-public" className="section-pad build-public">
-        <div className="container mx-auto px-4 md:px-6">
+      <section id="build-in-public" className="page-section quiet-band">
+        <div className="site-container">
           <div className="editorial-heading"><p className="kicker">Build in Public</p><h2>Der Aufbau bleibt sichtbar.</h2><p>Ich teile Learnings, Experimente und Verbesserungen, damit die Marke persönlicher bleibt als eine statische Agentur-Seite.</p></div>
           <div className="notes-grid mt-12">{buildNotes.map((note) => <article key={note}>{note}</article>)}</div>
         </div>
       </section>
 
-      <section className="section-pad">
-        <div className="container mx-auto px-4 md:px-6">
+      <section className="page-section">
+        <div className="site-container">
           <div className="final-cta">
             <p className="kicker">Nächster Schritt</p>
             <h2>Lassen Sie uns Ihr digitales Vorhaben sortieren.</h2>
