@@ -111,21 +111,21 @@ export default function Contact() {
 
   return (
     <Layout>
-      <section className="pt-24 pb-16 md:pt-32 md:pb-24 bg-muted/30">
-        <div className="container mx-auto px-4 md:px-6">
+      <section className="page-hero">
+        <div className="site-container">
           <div className="max-w-3xl space-y-6 fade-in">
-            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-foreground">
+            <h1 className="page-title">
               Projektanfrage
             </h1>
-            <p className="text-xl text-muted-foreground leading-relaxed">
+            <p className="lead">
               Lassen Sie uns Ihr Vorhaben strukturieren. Füllen Sie das Formular aus, und ich melde mich zeitnah mit den nächsten Schritten bei Ihnen.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="py-20">
-        <div className="container mx-auto px-4 md:px-6">
+      <section className="page-section">
+        <div className="site-container">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
             
             {/* Contact Info */}
@@ -134,24 +134,24 @@ export default function Contact() {
                 <h3 className="text-xl font-semibold mb-4 text-foreground">Was passiert als Nächstes?</h3>
                 <ol className="space-y-4 text-muted-foreground relative border-l border-border ml-3 pl-6">
                   <li className="relative">
-                    <span className="absolute -left-[31px] bg-background border border-border w-6 h-6 rounded-full flex items-center justify-center text-xs font-medium text-foreground">1</span>
+                    <span className="absolute -left-[31px] bg-background border border-border w-6 h-6 rounded-sm flex items-center justify-center text-xs font-medium text-foreground">1</span>
                     <strong className="text-foreground block mb-1">Prüfung</strong>
                     Ich schaue mir Ihre Angaben in Ruhe an und prüfe, ob und wie ich helfen kann.
                   </li>
                   <li className="relative">
-                    <span className="absolute -left-[31px] bg-background border border-border w-6 h-6 rounded-full flex items-center justify-center text-xs font-medium text-foreground">2</span>
+                    <span className="absolute -left-[31px] bg-background border border-border w-6 h-6 rounded-sm flex items-center justify-center text-xs font-medium text-foreground">2</span>
                     <strong className="text-foreground block mb-1">Erstgespräch</strong>
                     Wir vereinbaren ein 30-minütiges Gespräch, um Details zu klären.
                   </li>
                   <li className="relative">
-                    <span className="absolute -left-[31px] bg-background border border-border w-6 h-6 rounded-full flex items-center justify-center text-xs font-medium text-foreground">3</span>
+                    <span className="absolute -left-[31px] bg-background border border-border w-6 h-6 rounded-sm flex items-center justify-center text-xs font-medium text-foreground">3</span>
                     <strong className="text-foreground block mb-1">Vorschlag</strong>
                     Sie erhalten einen konkreten Vorschlag mit Budget- und Zeitrahmen.
                   </li>
                 </ol>
               </div>
 
-              <div className="p-6 bg-muted/50 border border-border rounded-xl">
+              <div className="p-6 bg-surface border border-border rounded-sm">
                 <h3 className="font-semibold mb-4 text-foreground">Direkter Kontakt</h3>
                 <div className="space-y-3 text-muted-foreground">
                   <p>
@@ -172,11 +172,11 @@ export default function Contact() {
 
             {/* Form */}
             <div className="lg:col-span-8 slide-up stagger-1">
-              <div className="bg-background border border-border rounded-2xl p-6 md:p-10 shadow-sm">
+              <div className="border-y border-border py-8 ">
                 
                 {isSuccess ? (
                   <div className="flex flex-col items-center justify-center text-center py-16 space-y-6">
-                    <div className="w-16 h-16 bg-green-50 text-green-600 rounded-full flex items-center justify-center">
+                    <div className="w-16 h-16 bg-green-50 text-green-600 rounded-sm flex items-center justify-center">
                       <CheckCircle2 className="w-8 h-8" />
                     </div>
                     <h2 className="text-2xl font-semibold">Vielen Dank für Ihre Anfrage!</h2>
@@ -410,7 +410,7 @@ export default function Contact() {
                           control={form.control}
                           name="privacyAccepted"
                           render={({ field }) => (
-                            <FormItem className="flex flex-row items-start space-x-3 space-y-0 p-4 border border-border rounded-lg bg-muted/20">
+                            <FormItem className="flex flex-row items-start space-x-3 space-y-0 p-4 border border-border rounded-sm bg-muted/20">
                               <FormControl>
                                 <Checkbox
                                   checked={field.value}
